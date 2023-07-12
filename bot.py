@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 import shutil
 from os import system as cmd
 bot = Client(
-    "myfirs",
+    "vidcomp",
     api_id=17983098,
     api_hash="ee28199396e0925f1f44d945ac174f64",
     bot_token="5545470781:AAGjzXBuTOeJ1JulON1Cw0I2ZP8kebs2Alk"
