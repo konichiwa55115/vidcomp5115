@@ -10,7 +10,7 @@ bot = Client(
 )
 @bot.on_message(filters.command('start') & filters.private)
 def command1(bot,message):
-    bot.send_message(message.chat.id, " السلام عليكم أنا بوت ضغط الفيديوهات , فقط أرسل الفيديو  هنا\n\n  لبقية البوتات هنا \n\n https://t.me/ibnAlQyyim/1120 ",disable_web_page_preview=True)
+    bot.send_message(message.chat.id, " السلام عليكم أنا بوت ضغط الفيديوهات , فقط أرسل الفيديو  هنا\n\n  لبقية البوتات هنا \n\n https://t.me/sunnay6626/2 ",disable_web_page_preview=True)
     
 @bot.on_message(filters.private & filters.incoming & filters.document | filters.video )
 def _telegram_file(client, message):
